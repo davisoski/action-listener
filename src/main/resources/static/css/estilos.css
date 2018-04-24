@@ -1,0 +1,261 @@
+/*
+body {
+	overflow: hidden;
+	font-family: calibri;
+	font-size: 15px;
+}
+*/
+#total {
+	overflow: scroll;
+	max-height: 400px;
+}
+
+#total td {
+	width: 100px;
+	margin: 1px;
+	padding: 0;
+}
+
+#total input {
+	width: 27px;
+	text-align: right;
+}
+
+#horizontal1 {
+	overflow: hidden;
+}
+
+#horizontal1 input, #horizontal2 input {
+	text-align: center;
+	width: 103px;
+}
+
+#horizontal1 td, #horizontal2 td {
+	text-align: center;
+	margin: 1px;
+	padding: 0;
+}
+
+#izda ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#izda li {
+	width: 30px;
+	border: #0000CC 1px solid;
+	background-color: silver;
+	margin: 3px;
+	padding: 0;
+	text-align: center;
+}
+
+#izda
+,
+{
+float
+
+
+
+
+
+
+
+
+
+
+
+:left
+
+
+
+
+
+
+
+
+
+
+;
+}
+#horizontal2 {
+	overflow: hidden;
+	left: 50px;
+	position: relative;
+}
+
+#izda {
+	overflow: hidden;
+	max-height: 385px;
+}
+
+#titulo {
+	height: 98px;
+	text-align: center;
+}
+
+#top2 {
+	font-weight: bold;
+}
+
+#top2 input {
+	color: red;
+	border: none;
+}
+
+#botona, #botonb {
+	font-weight: bold;
+	background-color: navy;
+	color: white
+}
+
+#boton1 {
+	background-color: blue;
+}
+
+#boton2 {
+	background-color: lime;
+}
+
+/* --- --- GRID --- --- */
+.botonera-grid {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.botonera-grid nav button i {
+	margin-right: 15px;
+}
+
+.finales-mes-anterior {
+	color: white;
+}
+
+.info-establecimiento {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.info-establecimiento-general {
+	border: 1px solid #AAffBB;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 5px;
+}
+
+.progressbar {
+	text-align: center;
+}
+
+/* --- --- ERRORES --- --- */
+.select-errores {
+	margin-left: 10px;
+}
+
+.valores-negativos {
+	margin-left: 12px;
+}
+
+/* --- --- TABLAS --- --- */
+.table-font-size {
+	font-size: 14px;
+}
+
+.thead-nowrap {
+	white-space: nowrap;
+}
+
+.td-nowrap {
+	white-space: nowrap;
+}
+
+table .dataTable thead td {
+	border-bottom: none;
+}
+
+table .dataTable tr td {
+	border-bottom: none;
+}
+
+table.dataTable {
+	margin-top: 1.5em !important;
+	margin-bottom: 2em !important;
+}
+/* --- --- LOGIN --- --- */
+.columna-banner {
+	background: f2f2f2;
+}
+
+/* --- --- HEADER --- --- */
+.navbar-bg-color {
+	background-color: #2786B8;
+}
+
+.navbar-btn-bg-color {
+	background-color: #2786B8;
+}
+
+.navbar-dropdown-bg-color {
+	background-color: #2786B8;
+}
+
+.nav-link:hover {
+	background-color: #1CA8D5;
+}
+
+.dropdown-item:hover {
+	background-color: #1CA8D5;
+}
+
+/* --- --- FOOTER --- --- */
+footer {
+	/* Like the header, the footer will have a static height - it shouldn't grow or shrink.  */
+	/* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+	flex: 0 0 auto;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+
+/* --- --- CUESTIONARIO --- --- */
+
+/* --- --- COLORES ICONOS FONTELLO --- --- */
+i.red {
+	color: red;
+}
+
+i.green {
+	color: green;
+}
+
+i.black {
+	color: black;
+}
+
+
+/*  --- --- NAVBAR --- --- */
+/*
+@media (min-width: 1400px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+*/
